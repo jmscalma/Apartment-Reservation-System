@@ -1,0 +1,161 @@
+I want to develop an apartment reservation system.
+Basically, I want to have 2 main users:
+ - user 
+ - owner
+
+Functionalities:
+    User 
+       - create an account
+       - apartment search Allow users to search for apartments based on location, price range, amenities, number of rooms, etc.
+       - get list of apartments
+          - filter by location, rate (how much), and feedback or rate(like 1-5 stars)
+       - select and view specific apartment Provide detailed information about each apartment, including pictures, address, rent price, utilities, and nearby facilities.
+       - make a reservation if still available 
+       - chat Enable users to ask questions or contact apartment owners through a built-in chat system.
+       - leave a review and rating
+       - wishlist
+       - notification
+       - profile
+       - map? Use Google Maps API to display apartment locations and nearby landmarks (universities, workplaces, public transport, etc.).
+       
+
+    Owner 
+       - create an account
+       - My apartments feature
+            - add apartment (name, location, price, description, rooms available)
+       - receive inquiries from the owner
+
+
+---------------------------------------------------
+User Functionalities (Students/Workers):
+User Registration and Login:
+
+Secure sign-up and login functionality.
+Option to sign in via social media accounts or university/employee email for easy onboarding.
+Search and Filter Apartments:
+
+Search by location, price range, room type (single/shared), lease duration, and amenities.
+Advanced filters for proximity to school/workplace, included utilities, and safety features.
+View Apartment Details:
+
+Display detailed information such as rent, deposit, number of rooms, facilities, policies, photos, and location on a map.
+Show apartment rules, e.g., quiet hours, curfew, and visitor policy.
+Make Inquiries:
+
+Allow users to send inquiries to apartment owners for more details or clarification.
+Real-time chat feature or email-based messaging system for users to communicate with owners.
+Roommate Matching (for Shared Dorms):
+
+Feature to match with potential roommates based on preferences (gender, non-smoker/smoker, work/study hours).
+Reservation/Booking:
+
+Enable users to reserve an apartment or dorm room for specific dates.
+Display availability using a calendar view and ensure users see lease terms (semester-based, monthly, yearly).
+Make Payments:
+
+Secure payment gateway for deposits or initial booking payments (e.g., PayPal, Stripe).
+Option for installment payments, especially for long-term stays (e.g., by semester).
+Lease Term Options:
+
+Ability to choose flexible lease options like short-term, semester-based, or yearly leases, as suited to students and workers.
+Save to Wishlist:
+
+Users can bookmark or add apartments to a "wishlist" for future consideration.
+Reviews and Ratings:
+
+Ability to leave reviews and rate apartments after stay.
+View other user reviews and ratings for a better-informed decision.
+Profile Management:
+
+Users can update personal details, view their reservation history, and manage active reservations.
+Notifications:
+
+Receive notifications for booking confirmations, responses to inquiries, or apartment availability updates.
+Document Upload for Lease Agreements:
+
+Upload signed lease agreements or required documents (e.g., ID, school/work certificates) for apartment owners.
+Apartment Comparison Tool:
+
+Compare multiple apartments side by side based on price, facilities, and proximity to university/work.
+Safety and Security Information:
+
+Display important details like security measures, nearby police stations, or safety ratings of the neighborhood.
+Waitlist for Full Apartments:
+
+Join a waitlist for fully booked apartments and get notified when a spot opens up.
+
+--------------------------------------------------------------------------------------------------------------
+Apartment Owner Functionalities (Dormitory Owners/Managers):
+Owner Registration and Login:
+
+Secure sign-up and login for apartment owners.
+Verification process to ensure legitimate owners.
+Apartment Listing Management:
+
+Create, edit, and delete apartment listings.
+Include details like rent, room types, amenities, pictures, policies, and utilities offered.
+Set lease terms (monthly, yearly, semester-based).
+Availability Management:
+
+Set and manage apartment availability using a calendar.
+Block dates for maintenance or special conditions.
+Manage Inquiries:
+
+Respond to user inquiries through the platform’s chat or message system.
+Keep track of all conversations for each apartment listing.
+Reservation Management:
+
+View, accept, or reject apartment reservations.
+Automatically block dates when reservations are confirmed to avoid overbooking.
+Manage lease terms and dates of stay.
+Pricing and Promotions:
+
+Set dynamic pricing, offer discounts for long-term stays (e.g., full academic year), or run promotions (e.g., “early bird discounts”).
+Payment Management:
+
+Track and manage payments received from users.
+Support for setting payment plans, installment options, and deposits.
+View earnings reports and download financial data for accounting purposes.
+Tenant Profile and Document Management:
+
+View tenant profiles, reservation history, and any uploaded documents (e.g., IDs, signed leases).
+Keep track of current and past tenants for security and legal purposes.
+Analytics Dashboard:
+
+Overview of apartment views, reservation rates, and inquiries.
+Metrics on most popular listings, best-rated apartments, and financial earnings.
+Room Type and Amenity Management:
+
+Categorize rooms into single, shared, or dormitory styles.
+List specific amenities like Wi-Fi, laundry, study areas, and communal kitchens.
+Lease Agreement Upload and Signature:
+
+Owners can upload lease agreements for tenants to review and sign digitally.
+Notifications:
+
+Receive notifications for new reservations, payment completions, or expiring lease contracts.
+Security and Verification Features:
+
+Owners can request and verify necessary documents from potential tenants (e.g., student IDs, work contracts).
+Maintenance and Issue Reporting:
+
+Allow tenants to report maintenance issues, and owners can track and address these issues through the platform.
+Owner Profile and Reputation:
+
+Manage a public profile where users can see owner ratings, reviews, and trustworthiness based on past tenant feedback.
+
+
+------------------------------------------------------------------------------------------------------------
+Admin Features (for System Management):
+User and Owner Management:
+
+Admins can manage user accounts, approve or suspend listings, and handle user disputes.
+Review and Rating Moderation:
+
+Monitor and moderate reviews and ratings to ensure fair play between users and owners.
+System Notifications:
+
+Global announcements for system maintenance or updates to both users and owners.
+Reporting and Analytics:
+
+Access to detailed reports on user activity, most popular apartments, and overall platform performance.
